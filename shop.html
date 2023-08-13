@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <Link rel="stylesheet" href="shop.css"> 
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <title>shoe shop</title>
+     <script src="https://kit.fontawesome.com/af22870e4d.js"crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div class="hero">
+        <nav class="navbar">
+            <input type="checkbox" class="check">
+            <div class="toggle-cross">
+                <div class="line ln1"></div>
+                <div class="line ln2"></div>
+                <div class="line ln3"></div>
+            </div>
+            <h2>SteveShoes</h2>
+            <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="images/user1.JPG" alt=""  id="popUp">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                      <img src="images/user1.JPG" alt="">
+                      <h3>James Akinola</h3>
+                    </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <h4>Edit Profile</h4>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <h4>Collections</h4>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <h4>Settings</h4>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <h4>Log-out</h4>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="containerimg"></div>
+            <div class="containercontent">
+                <h2>Fall Limited Edition Shoes</h2>
+                <p>These low-profile flat shoes are your perfect cooperate shoes companion. Featuring durable leathers and rubber outer sole, they will withstand everything the weather can offer.</p>
+                <div class="price">
+                    <h3>$125.00 <span class="percent">50%</span></h3>
+                    <h4>$250.00</h4>
+                </div>
+                <div class="quantity">
+                    <button class="minus" id="minus">-</button>
+                    <span class="num" id="number">00</span>
+                    <button class="plus" id="plus">+</button>
+                </div>
+                <button class="submit">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+
+        </div>
+
+       </div>
+
+     <script src="shop.js"></script>
+    </body>
+
+</html>
